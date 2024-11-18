@@ -1,0 +1,21 @@
+.accordion-button:not(.collapsed) {
+    background-color: #C5D3E8 !important;
+}
+
+#collapseOne ul{
+    list-style: none;
+    margin: 0;
+    padding: 0 ;
+}
+
+#collapseOne li{
+    padding: 5px 0;
+}
+
+@media (max-width:768px) {
+    #collapseThree label{
+        display: block;
+        margin: 10px 0;
+    }
+
+}

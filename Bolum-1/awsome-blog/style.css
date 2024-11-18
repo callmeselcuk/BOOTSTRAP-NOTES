@@ -1,0 +1,50 @@
+.navbar,.section-1,footer{
+    background-color: #526E48 !important;
+}
+
+a
+body{
+    position: relative;
+}
+header::before{
+    position: absolute;
+    content: "";
+    display: block;
+    background-color: #FEF3E2;
+    opacity: 0.8;
+    height: 100vh;
+    width: 100%;
+    z-index: -2;
+    padding: 0;
+    margin: 0;
+} 
+.card,.card-footer{
+    transition: all .2s;
+}
+.card:hover{
+    background-color: #FEF3E2;
+    cursor: pointer;
+}
+.card:hover .card-footer{
+    background-color: #A6AEBF;
+}
+.card-img-top{
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+}
+#form{
+    height: 450px;
+}
+@media (min-width:768px) {
+    .card-img-top{
+        height: 40vh;
+    }
+    #form{
+        height: 100%;
+    }
+} 
+
+.list-group .active{
+    background-color: #526E48;
+}
